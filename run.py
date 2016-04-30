@@ -32,13 +32,14 @@ for s in tests:
         r = classify(tree, [s])[0]
         rx = s[sys.argv[2]]
         valid = '[!]' if r != rx else ''
-        print '{:4}'.format(s[label]), 'classified as:', r, 'actually is', rx, valid
+        print '{:4}'.format(s[label]), 'classified as:', r, 'actually is', \
+              rx, valid
         if r == rx:
             good += 1.0
     except KeyError:
         bads.append(s[label])
-        pass
 
 print '--'
 print 'Could not classify the following:', ', '.join(bads)
-print 'Total accuracy: {:.2f}%, {}/{}'.format(100 * good/len(tests), int(good), len(tests))
+print 'Total accuracy: {:.2f}%, {}/{}'.format(100 * good/len(tests),
+                                              int(good), len(tests))

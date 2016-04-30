@@ -136,11 +136,9 @@ def classify(tree, data):
 
 def print_tree(tree, depth=0):
     if isinstance(tree, dict):
-        if depth == 0:
-            print "Root: %s" % list(tree.keys())[0]
-            depth += 1
         for item in list(tree.values())[0].keys():
-            print str('\t' * depth) + "| %s = %s" % (list(tree.keys())[0], item)
+            print str('\t' * depth) + "| %s = %s" % \
+                     (list(tree.keys())[0], item)
             print_tree(list(tree.values())[0][item], depth + 1)
     else:
         print str('\t' * depth) + "|-> %s" % tree
