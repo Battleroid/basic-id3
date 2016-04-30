@@ -8,6 +8,7 @@ if len(sys.argv) < 3:
 
 # load
 attrs, data = parse_file(sys.argv[1])
+label = attrs[0]   # get record name
 attrs = attrs[1:]  # exclude record name
 
 # grab about 20% of our records to test
@@ -23,13 +24,19 @@ tree = create_tree(data, attrs, sys.argv[2])
 print_tree(tree)
 
 # test classification
+print 'Testing sampled records ...'
+good = 0.0
 for s in tests:
     try:
         r = classify(tree, [s])[0]
         rx = s[sys.argv[2]]
         valid = '[!]' if r != rx else ''
-        print s['Record#'], 'classified as:', r, 'actually is', rx, valid
+        print '{:4}'.format(s[label]), 'classified as:', r, 'actually is', rx, valid
+        if r == rx:
+            good += 1.0
     except KeyError:
         # unfortunately some records' values might not be a part of the tree
         # so silently error out if a KeyError occurs
         pass
+
+print 'Total accuracy: {:.2f}%, {}/{}'.format(100 * good/len(tests), int(good), len(tests))
