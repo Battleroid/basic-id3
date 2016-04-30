@@ -26,6 +26,7 @@ print_tree(tree)
 # test classification
 print 'Testing sampled records ...'
 good = 0.0
+bads = []
 for s in tests:
     try:
         r = classify(tree, [s])[0]
@@ -35,8 +36,9 @@ for s in tests:
         if r == rx:
             good += 1.0
     except KeyError:
-        # unfortunately some records' values might not be a part of the tree
-        # so silently error out if a KeyError occurs
+        bads.append(s[label])
         pass
 
+print '--'
+print 'Could not classify the following:', ', '.join(bads)
 print 'Total accuracy: {:.2f}%, {}/{}'.format(100 * good/len(tests), int(good), len(tests))
