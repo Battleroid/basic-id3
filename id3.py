@@ -135,10 +135,15 @@ def classify(tree, data):
 
 
 def print_tree(tree, depth=0):
+    if depth == 0:
+        print list(tree.keys())[0], 'is starting attribute (root):'
+        depth += 1
     if isinstance(tree, dict):
         for item in list(tree.values())[0].keys():
-            print str('\t' * depth) + "| %s = %s" % \
-                     (list(tree.keys())[0], item)
+            if not isinstance(list(tree.values())[0][item], dict):
+                print '\t' * depth + "If %s == %s then" % (list(tree.keys())[0], item),
+            else:
+                print '\t' * depth + 'If %s == %s and' % (list(tree.keys())[0], item)
             print_tree(list(tree.values())[0][item], depth + 1)
     else:
-        print str('\t' * depth) + "|-> %s" % tree
+        print 'it is class %s' % tree

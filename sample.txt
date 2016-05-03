@@ -1,0 +1,378 @@
+A8 is starting attribute (root):
+        If A8 == 4.0 then it is class 3.0
+        If A8 == 5.0 then it is class 1.0
+        If A8 == 8.0 then it is class 1.0
+        If A8 == 9.0 and
+                If A7 == 18.0 then it is class 3.0
+                If A7 == 14.0 then it is class 3.0
+                If A7 == 23.0 then it is class 1.0
+        If A8 == 10.0 and
+                If A7 == 8.0 then it is class 1.0
+                If A7 == 13.0 and
+                        If A6 == 19.0 then it is class 1.0
+                        If A6 == 12.0 then it is class 1.0
+                        If A6 == 21.0 then it is class 3.0
+                        If A6 == 15.0 then it is class 2.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 15.0 and
+                        If A6 == 5.0 then it is class 1.0
+                        If A6 == 14.0 then it is class 2.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 18.0 then it is class 2.0
+                        If A6 == 10.0 then it is class 1.0
+                        If A6 == 5.0 then it is class 1.0
+                If A7 == 18.0 then it is class 1.0
+                If A7 == 20.0 then it is class 1.0
+                If A7 == 22.0 and
+                        If A6 == 15.0 and
+                                If A5 == 16.0 then it is class 1.0
+                                If A5 == 17.0 then it is class 2.0
+                If A7 == 23.0 then it is class 1.0
+                If A7 == 24.0 then it is class 1.0
+        If A8 == 11.0 and
+                If A7 == 8.0 then it is class 1.0
+                If A7 == 9.0 then it is class 1.0
+                If A7 == 11.0 and
+                        If A6 == 24.0 then it is class 2.0
+                        If A6 == 19.0 then it is class 4.0
+                If A7 == 12.0 then it is class 3.0
+                If A7 == 13.0 and
+                        If A6 == 18.0 then it is class 3.0
+                        If A6 == 14.0 then it is class 1.0
+                If A7 == 14.0 and
+                        If A6 == 12.0 then it is class 1.0
+                        If A6 == 13.0 and
+                                If A5 == 17.0 then it is class 1.0
+                                If A5 == 23.0 then it is class 2.0
+                        If A6 == 14.0 then it is class 2.0
+                If A7 == 15.0 then it is class 2.0
+                If A7 == 16.0 and
+                        If A6 == 15.0 then it is class 2.0
+                        If A6 == 7.0 then it is class 1.0
+                If A7 == 17.0 then it is class 3.0
+                If A7 == 18.0 then it is class 1.0
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 21.0 and
+                        If A6 == 12.0 then it is class 3.0
+                        If A6 == 14.0 then it is class 2.0
+                        If A6 == 22.0 then it is class 2.0
+                If A7 == 23.0 and
+                        If A6 == 12.0 and
+                                If A5 == 17.0 and
+                                  If A4 == 47.0 and
+                                        If A3 == 17.0 then it is class 2.0
+                                        If A3 == 7.0 then it is class 1.0
+                        If A6 == 21.0 then it is class 3.0
+                If A7 == 24.0 then it is class 1.0
+                If A7 == 25.0 and
+                        If A6 == 17.0 then it is class 1.0
+                        If A6 == 18.0 then it is class 3.0
+        If A8 == 12.0 and
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 then it is class 3.0
+                If A7 == 14.0 then it is class 1.0
+                If A7 == 15.0 then it is class 2.0
+                If A7 == 17.0 then it is class 1.0
+                If A7 == 19.0 then it is class 3.0
+                If A7 == 20.0 then it is class 2.0
+                If A7 == 23.0 then it is class 2.0
+                If A7 == 24.0 then it is class 4.0
+        If A8 == 13.0 and
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 16.0 then it is class 3.0
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 20.0 then it is class 3.0
+                If A7 == 22.0 then it is class 1.0
+        If A8 == 14.0 and
+                If A7 == 8.0 and
+                        If A6 == 14.0 then it is class 1.0
+                        If A6 == 22.0 then it is class 2.0
+                If A7 == 14.0 then it is class 1.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 11.0 then it is class 1.0
+                        If A6 == 13.0 then it is class 3.0
+                        If A6 == 14.0 then it is class 2.0
+                If A7 == 18.0 then it is class 3.0
+                If A7 == 22.0 then it is class 3.0
+        If A8 == 15.0 and
+                If A7 == 9.0 then it is class 1.0
+                If A7 == 11.0 then it is class 1.0
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 then it is class 3.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 15.0 then it is class 1.0
+                If A7 == 17.0 then it is class 1.0
+                If A7 == 23.0 and
+                        If A6 == 13.0 then it is class 3.0
+                        If A6 == 15.0 then it is class 1.0
+        If A8 == 16.0 and
+                If A7 == 10.0 then it is class 3.0
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 17.0 then it is class 2.0
+                If A7 == 18.0 and
+                        If A6 == 20.0 then it is class 2.0
+                        If A6 == 13.0 then it is class 3.0
+                If A7 == 24.0 then it is class 2.0
+        If A8 == 17.0 and
+                If A7 == 5.0 then it is class 3.0
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 14.0 then it is class 3.0
+                If A7 == 15.0 and
+                        If A6 == 16.0 then it is class 1.0
+                        If A6 == 13.0 then it is class 2.0
+                If A7 == 16.0 then it is class 1.0
+                If A7 == 17.0 and
+                        If A6 == 12.0 then it is class 2.0
+                        If A6 == 21.0 then it is class 3.0
+                If A7 == 18.0 and
+                        If A6 == 19.0 then it is class 3.0
+                        If A6 == 12.0 then it is class 1.0
+                        If A6 == 5.0 then it is class 2.0
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 22.0 then it is class 1.0
+                If A7 == 23.0 then it is class 1.0
+                If A7 == 25.0 then it is class 3.0
+        If A8 == 18.0 and
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 14.0 and
+                        If A6 == 13.0 then it is class 1.0
+                        If A6 == 15.0 then it is class 4.0
+                If A7 == 17.0 then it is class 2.0
+                If A7 == 18.0 and
+                        If A6 == 12.0 then it is class 3.0
+                        If A6 == 13.0 then it is class 1.0
+                If A7 == 19.0 then it is class 3.0
+                If A7 == 23.0 then it is class 2.0
+        If A8 == 19.0 and
+                If A7 == 18.0 and
+                        If A6 == 13.0 then it is class 3.0
+                        If A6 == 14.0 then it is class 2.0
+                If A7 == 14.0 then it is class 2.0
+        If A8 == 20.0 and
+                If A7 == 10.0 then it is class 3.0
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 and
+                        If A6 == 11.0 then it is class 1.0
+                        If A6 == 14.0 then it is class 3.0
+                        If A6 == 23.0 then it is class 1.0
+                If A7 == 14.0 then it is class 1.0
+                If A7 == 15.0 then it is class 3.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 17.0 then it is class 2.0
+                        If A6 == 14.0 then it is class 3.0
+                If A7 == 18.0 then it is class 2.0
+                If A7 == 19.0 then it is class 1.0
+                If A7 == 20.0 then it is class 3.0
+                If A7 == 21.0 then it is class 2.0
+                If A7 == 22.0 then it is class 2.0
+                If A7 == 23.0 and
+                        If A6 == 16.0 then it is class 3.0
+                        If A6 == 12.0 then it is class 1.0
+        If A8 == 21.0 and
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 14.0 and
+                        If A6 == 12.0 then it is class 1.0
+                        If A6 == 5.0 then it is class 3.0
+                If A7 == 23.0 then it is class 2.0
+        If A8 == 22.0 and
+                If A7 == 7.0 then it is class 2.0
+                If A7 == 11.0 then it is class 2.0
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 and
+                        If A6 == 11.0 then it is class 2.0
+                        If A6 == 13.0 and
+                                If A5 == 22.0 then it is class 1.0
+                                If A5 == 15.0 then it is class 2.0
+                        If A6 == 23.0 then it is class 1.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 15.0 then it is class 2.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 then it is class 2.0
+                If A7 == 18.0 then it is class 1.0
+                If A7 == 19.0 and
+                        If A6 == 18.0 then it is class 1.0
+                        If A6 == 12.0 then it is class 2.0
+                        If A6 == 23.0 then it is class 2.0
+                If A7 == 20.0 and
+                        If A6 == 16.0 then it is class 2.0
+                        If A6 == 17.0 then it is class 1.0
+        If A8 == 23.0 and
+                If A7 == 10.0 then it is class 1.0
+                If A7 == 11.0 then it is class 1.0
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 then it is class 1.0
+                If A7 == 14.0 then it is class 1.0
+                If A7 == 15.0 then it is class 3.0
+                If A7 == 18.0 then it is class 2.0
+                If A7 == 22.0 then it is class 2.0
+                If A7 == 23.0 then it is class 1.0
+                If A7 == 24.0 then it is class 1.0
+        If A8 == 24.0 and
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 then it is class 1.0
+                If A7 == 15.0 and
+                        If A6 == 16.0 then it is class 3.0
+                        If A6 == 12.0 then it is class 1.0
+        If A8 == 25.0 and
+                If A7 == 8.0 then it is class 1.0
+                If A7 == 17.0 then it is class 2.0
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 12.0 then it is class 1.0
+        If A8 == 26.0 and
+                If A7 == 12.0 then it is class 1.0
+                If A7 == 13.0 then it is class 2.0
+                If A7 == 14.0 and
+                        If A6 == 16.0 and
+                                If A5 == 16.0 then it is class 2.0
+                                If A5 == 18.0 then it is class 3.0
+                        If A6 == 19.0 then it is class 2.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 18.0 then it is class 1.0
+                If A7 == 20.0 then it is class 3.0
+        If A8 == 27.0 and
+                If A7 == 9.0 then it is class 3.0
+                If A7 == 13.0 and
+                        If A6 == 16.0 then it is class 2.0
+                        If A6 == 18.0 then it is class 3.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 15.0 and
+                        If A6 == 12.0 and
+                                If A5 == 26.0 then it is class 1.0
+                                If A5 == 22.0 then it is class 4.0
+                        If A6 == 14.0 then it is class 1.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 17.0 then it is class 2.0
+                        If A6 == 12.0 then it is class 3.0
+                        If A6 == 23.0 then it is class 3.0
+                If A7 == 18.0 and
+                        If A6 == 13.0 then it is class 1.0
+                        If A6 == 15.0 then it is class 3.0
+                If A7 == 20.0 then it is class 1.0
+                If A7 == 23.0 then it is class 2.0
+                If A7 == 24.0 then it is class 3.0
+        If A8 == 28.0 and
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 13.0 then it is class 2.0
+                If A7 == 18.0 then it is class 2.0
+                If A7 == 22.0 and
+                        If A6 == 16.0 then it is class 2.0
+                        If A6 == 23.0 then it is class 1.0
+                If A7 == 23.0 and
+                        If A6 == 9.0 then it is class 1.0
+                        If A6 == 20.0 then it is class 2.0
+                        If A6 == 13.0 then it is class 2.0
+                If A7 == 25.0 then it is class 3.0
+        If A8 == 29.0 and
+                If A7 == 11.0 then it is class 2.0
+                If A7 == 12.0 then it is class 2.0
+                If A7 == 13.0 and
+                        If A6 == 19.0 then it is class 1.0
+                        If A6 == 15.0 and
+                                If A5 == 18.0 then it is class 1.0
+                                If A5 == 21.0 then it is class 2.0
+                If A7 == 14.0 and
+                        If A6 == 18.0 then it is class 3.0
+                        If A6 == 4.0 then it is class 2.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 5.0 then it is class 2.0
+                        If A6 == 23.0 then it is class 1.0
+                If A7 == 20.0 then it is class 2.0
+                If A7 == 22.0 and
+                        If A6 == 10.0 then it is class 1.0
+                        If A6 == 11.0 then it is class 2.0
+        If A8 == 30.0 and
+                If A7 == 8.0 then it is class 2.0
+                If A7 == 13.0 then it is class 2.0
+                If A7 == 14.0 then it is class 1.0
+                If A7 == 15.0 then it is class 3.0
+                If A7 == 16.0 then it is class 2.0
+                If A7 == 17.0 and
+                        If A6 == 18.0 then it is class 2.0
+                        If A6 == 14.0 then it is class 3.0
+                If A7 == 18.0 then it is class 2.0
+                If A7 == 19.0 then it is class 2.0
+                If A7 == 21.0 then it is class 3.0
+                If A7 == 23.0 then it is class 2.0
+                If A7 == 24.0 then it is class 1.0
+        If A8 == 31.0 and
+                If A7 == 21.0 then it is class 1.0
+                If A7 == 22.0 then it is class 2.0
+        If A8 == 32.0 and
+                If A7 == 24.0 then it is class 1.0
+                If A7 == 14.0 then it is class 2.0
+                If A7 == 13.0 then it is class 3.0
+                If A7 == 22.0 then it is class 2.0
+        If A8 == 33.0 and
+                If A7 == 11.0 then it is class 2.0
+                If A7 == 18.0 then it is class 2.0
+                If A7 == 19.0 then it is class 1.0
+                If A7 == 13.0 then it is class 3.0
+                If A7 == 14.0 then it is class 1.0
+        If A8 == 34.0 then it is class 1.0
+        If A8 == 35.0 then it is class 1.0
+        If A8 == 36.0 and
+                If A7 == 20.0 then it is class 3.0
+                If A7 == 23.0 then it is class 1.0
+        If A8 == 37.0 then it is class 2.0
+        If A8 == 40.0 then it is class 3.0
+        If A8 == 42.0 then it is class 1.0
+        If A8 == 44.0 then it is class 2.0
+        If A8 == 45.0 then it is class 2.0
+        If A8 == 46.0 and
+                If A7 == 20.0 then it is class 4.0
+                If A7 == 12.0 and
+                        If A6 == 26.0 then it is class 2.0
+                        If A6 == 12.0 then it is class 1.0
+        If A8 == 47.0 then it is class 2.0
+
+Testing sampled records:
+R35  classified as: 2.0 actually is 3.0 [!]
+R335 classified as: 2.0 actually is 2.0
+R128 classified as: 1.0 actually is 1.0
+R29  classified as: 1.0 actually is 3.0 [!]
+R400 classified as: 1.0 actually is 3.0 [!]
+R315 classified as: 2.0 actually is 1.0 [!]
+R6   classified as: 2.0 actually is 3.0 [!]
+R133 classified as: 3.0 actually is 3.0
+R211 classified as: 2.0 actually is 2.0
+R345 classified as: 3.0 actually is 2.0 [!]
+R431 classified as: 1.0 actually is 1.0
+R456 classified as: 3.0 actually is 2.0 [!]
+R281 classified as: 2.0 actually is 2.0
+R408 classified as: 2.0 actually is 2.0
+R334 classified as: 2.0 actually is 2.0
+R122 classified as: 1.0 actually is 1.0
+R56  classified as: 3.0 actually is 1.0 [!]
+R164 classified as: 1.0 actually is 2.0 [!]
+R270 classified as: 1.0 actually is 1.0
+R4   classified as: 1.0 actually is 3.0 [!]
+R300 classified as: 2.0 actually is 2.0
+R120 classified as: 1.0 actually is 1.0
+R426 classified as: 2.0 actually is 1.0 [!]
+R198 classified as: 2.0 actually is 3.0 [!]
+R398 classified as: 1.0 actually is 3.0 [!]
+R49  classified as: 2.0 actually is 1.0 [!]
+R373 classified as: 2.0 actually is 2.0
+R75  classified as: 1.0 actually is 1.0
+R357 classified as: 1.0 actually is 2.0 [!]
+R129 classified as: 1.0 actually is 1.0
+R140 classified as: 1.0 actually is 4.0 [!]
+R210 classified as: 1.0 actually is 2.0 [!]
+R59  classified as: 1.0 actually is 1.0
+R251 classified as: 3.0 actually is 2.0 [!]
+R202 classified as: 3.0 actually is 3.0
+R365 classified as: 2.0 actually is 2.0
+R380 classified as: 1.0 actually is 2.0 [!]
+R169 classified as: 2.0 actually is 3.0 [!]
+R236 classified as: 2.0 actually is 1.0 [!]
+R91  classified as: 2.0 actually is 1.0 [!]
+--
+Could not classify the following: R250, R221, R185, R10, R301, R423, R396, R284, R86, R149, R11, R18, R362, R14, R15, R171, R117, R99, R219, R165, R451, R336, R394, R437, R452, R206, R45, R82, R458, R119
+Total accuracy: 25.71%, 18/70

@@ -24,7 +24,7 @@ tree = create_tree(data, attrs, sys.argv[2])
 print_tree(tree)
 
 # test classification
-print 'Testing sampled records ...'
+print '\nTesting sampled records:'
 good = 0.0
 bads = []
 for s in tests:
@@ -40,6 +40,7 @@ for s in tests:
         bads.append(s[label])
 
 print '--'
-print 'Could not classify the following:', ', '.join(bads)
+if bads:
+    print 'Could not classify the following:', ', '.join(bads)
 print 'Total accuracy: {:.2f}%, {}/{}'.format(100 * good/len(tests),
                                               int(good), len(tests))
